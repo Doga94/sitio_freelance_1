@@ -1,0 +1,28 @@
+:root{
+    /* Colores */
+    --blanco: #ffffff;
+    --osucro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    /* Fuentes */
+    --fuente-principal: 3.8rem;
+
+}   /*Custom propertys o variables de css*/
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 10px;
+}
+/* Con las dos lineas de arriba se usa para que se formatee las medidas de la paginas */
+/* con las dos lineas de arriba podemos usar rem de la siguiente forma **1rem = 10px** */
+.title {
+    text-align: center;
+    font-size: 3.8rem;
+}
+.title span{
+    font-size: 20px;
+}
