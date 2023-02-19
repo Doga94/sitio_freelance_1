@@ -16,6 +16,7 @@ html{
 }
 body{
     font-size: 10px;
+    font-family: 'Krub', sans-serif;
 }
 /* Con las dos lineas de arriba se usa para que se formatee las medidas de la paginas */
 /* con las dos lineas de arriba podemos usar rem de la siguiente forma **1rem = 10px** */
@@ -24,5 +25,5 @@ body{
     font-size: 3.8rem;
 }
 .title span{
-    font-size: 20px;
+    font-size: 2rem;
 }
