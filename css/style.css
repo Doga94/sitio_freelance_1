@@ -31,7 +31,7 @@ body{
 
 /* **Navegación** */
 .contenedor{
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto; /* Centra el nav */
 }
 .nav-bg{
@@ -39,8 +39,17 @@ body{
 }
 .nav_principal{
     display: flex; /* Activa el display flex */
-    justify-content: space-between; /* Centra los elementos del padre */
+    flex-direction: column;
+    align-items: center;
 }
+
+@media (min-width: 768px) {
+    .nav_principal{
+        flex-direction: row;
+        justify-content: space-between; /* Centra los elementos del padre */
+    }
+}
+
 .nav_principal a{ 
     color: var(--blanco);
     text-decoration: none;
@@ -51,4 +60,9 @@ body{
 .nav_principal a:hover{
     background-color: var(--primario);
     color: var(--osucro);
+}
+.hero{
+    background-image: url(/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
